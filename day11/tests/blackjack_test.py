@@ -14,4 +14,9 @@ def test_make_sum_2():
 def test_make_sum_3():
     cards = ['5', '6']
 
-    assert make_sum(cards) == 11;      
+    assert make_sum(cards) == 11;   
+
+def test_make_sum_4():
+    cards = ['K', 'J', 'A']
+
+    assert make_sum(cards) == 21;      
